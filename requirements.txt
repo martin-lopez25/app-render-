@@ -1,7 +1,8 @@
 dash==2.15.0
 dash-bootstrap-components>=1.6.0,<2.0
 
-pandas==2.0.3
+pandas>=2.1.1,<2.2
+
 polars==0.20.0
 flask>=2.3.3,<3.0
 

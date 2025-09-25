@@ -9,7 +9,7 @@ from io import BytesIO
 from datetime import datetime
 from pathlib import Path
 import flask
-
+BASE_DIR = Path(__file__).parent
 # ========== CONFIGURACIÓN INICIAL ==========
 COLOR_PRIMARIO = '#611232'  # Verde oscuro
 COLOR_SECUNDARIO = '#AE8640'  # Dorado
@@ -702,4 +702,5 @@ def exportar_a_excel(n_clicks, horarios_1, horarios_2):
 
 # Ejecutar la aplicación
 if __name__ == '__main__':
+
     server = app.server
